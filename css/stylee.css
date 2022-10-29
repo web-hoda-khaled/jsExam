@@ -1,0 +1,110 @@
+/* start genral css */
+
+
+body{
+   overflow-y: hidden;
+   background-color: #000;
+
+}
+a{
+   text-decoration: none;
+}
+ul{
+   list-style: none;
+}
+/* end heading */
+.loading{
+   z-index: 999999999;
+}
+/* end genral css */
+/* ***********************************start nav*********************************************** */
+nav {
+   width: 15%;
+   top: 0;
+   left: 0;
+   z-index: 999999;
+}
+
+nav .nav-anm ul li a{
+   color: white;
+   font-size: 1.2rem;
+   font-weight: 500;
+
+}
+#item1{
+   padding-top: 50px;
+   opacity: 0;
+}
+#item2{
+   padding-top: 50px;
+   opacity: 0;
+}
+
+#item3{
+   padding-top: 50px;
+   opacity: 0;
+}
+
+#item4{
+   padding-top: 50px;
+   opacity: 0;
+}
+
+#item5{
+   padding-top: 50px;
+   opacity: 0;
+}
+
+nav ul li a:hover{
+   color: white;
+}
+
+/* ***********************************end nav*********************************************** */
+/* ***********************************start header*********************************************** */
+
+.figure{
+   overflow: hidden;
+}
+.figure-caption{
+   top: 100%;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   transition: all .7s;
+   -webkit-transition: all .7s;
+   -moz-transition: all .7s;
+   -ms-transition: all .7s;
+   -o-transition: all .7s;
+}
+.figure:hover .figure-caption{
+   top: 0;
+   
+}
+/* ***********************************end header*********************************************** */
+/* ***********************************start serch*********************************************** */
+.serch{
+   display: none;
+}
+.form-control{
+   border: 0;
+   border-bottom: 1px solid #fff ;
+}
+/* ***********************************end serch*********************************************** */
+
+
+/* ***********************************start category*********************************************** */
+.category p{
+   font-size: 1rem;
+   font-weight: 500;
+   cursor: pointer;
+
+}
+
+.category h3{
+   cursor: pointer;
+}
+
+/* ***********************************star tcategory*********************************************** */
+.content{
+   display: none;
+}

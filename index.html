@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Yammmy</title>
+    <link rel="icon" href="images/logo.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/stylee.css"/>
+
+    </head>
+    <body>
+<!-- ***********************************start loading*********************************************** -->
+<div class="loading vh-100 fixed-top bg-black">
+    <div class="d-flex justify-content-center align-items-center h-100 text-white" >
+        <i class="fa-solid fa-spinner fa-6x fa-spin"></i>
+    </div>
+</div><!--./loading-->
+<!-- ***********************************end loading*********************************************** -->
+<!-- ***********************************start nav*********************************************** -->
+<nav class="vh-100 bg-black position-fixed ">
+    <div class="position-relative h-100 py-5">
+        <div class="container nav-anm h-100  d-flex flex-column justify-content-between align-items-center ">
+            <ul class=" ps-0 m-0  position-relative" >
+                <li id="item1" class="mb-3"><a href="#">Serch</a></li>
+                <li id="item2" class="mb-3"><a href="#">Category</a></li>
+                <li id="item3" class="mb-3"><a href="#">Area</a></li>
+                <li id="item4" class="mb-3"><a href="#">Ingredients</a></li>
+                <li id="item5" class="mb-3"><a href="#">Contact Us</a></li>
+            </ul>
+
+            <div class="foot-nav ps-4 py-4 text-secondary">
+                    <i class="fa-brands fa-facebook-f me-3"></i>
+                    <i class="fa-brands fa-twitter me-3"></i>
+                    <i class="fa-solid fa-globe me-3"></i>
+                    <p>Copyright آ© 2019 All Rights Reserved.</p>
+            </div><!--./foot-nav-->
+        </div><!--./container-->
+        
+
+
+
+
+
+        <div class="position-absolute top-0 start-100 w-25  ">
+        <div class="cliked-nav bg-white vh-100 d-flex flex-column justify-content-between align-items-center py-3">
+            <figure class="figure">
+                <img class="img-fluid" src="images/logo.png" alt="img"/>
+            </figure>
+            <div class="icon ">
+                <a id="closeNav" class="text-black" href="#"><i class="fa-solid fa-bars fa-2x"></i></a>
+            </div><!--./icon-->
+
+            <div class="">
+                <a class="d-block mt-3 text-black" href="#"><i class="fa-solid fa-globe"></i></a>
+                <a class="d-block mt-3 text-black" href="#"><i class="fa-solid fa-share-nodes"></i></a>
+            </div><!--./icon-->
+        </div><!--./clicked-nav-->
+        
+</div>
+    </div>
+</nav>
+<!-- ***********************************end nav*********************************************** -->
+<!-- ***********************************start serch*********************************************** -->
+
+<section class="py-5 serch" >
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <input  id="serchByName" class="form-control text-center bg-black rounded-0 text-white " type="text" placeholder="Serch By Name"/>
+            </div>
+            <div class="col-md-6">
+                <input id="serchByFirstLetter" class="form-control text-center bg-black  rounded-0 text-white" maxlength="1" type="text" placeholder="Serch By First Letter"/>
+            </div>
+        </div><!--./row-->
+        <div class="row displayBySerch py-5 g-4">
+        </div><!--./row-->
+    </div>
+</section>
+<!-- ***********************************end serch*********************************************** -->
+
+<!-- ***********************************start header*********************************************** -->
+<header class="bg-black">
+    <div class="container py-5 ">
+        <div class="row display py-5 g-4">
+        </div><!--./row-->
+    </div><!--./container-->
+</header>
+<!-- ***********************************end header*********************************************** -->
+
+<!-- ***********************************start catogery************************************** -->
+
+<section class="py-5 category" >
+    <div class="container">
+        <div onclick="" class="row displayByCategory py-5 g-4">
+        </div><!--./row-->
+    </div>
+</section>
+<!-- ***********************************end catogery*********************************************** -->
+
+<!-- ***********************************start fillter catogery*********************************** -->
+
+<section class="py-5 filtercategory" >
+    <div class="container">
+        <div class="row displayByfliterCategory py-5 g-4">
+        </div><!--./row-->
+    </div>
+</section>
+<!-- *************************end fillter catogery******************************************** -->
+
+
+
+<!-- ***********************************start Area*********************************** -->
+
+<section class=" Area" >
+    <div class="container">
+        <div class="row displayArea py-5 g-4 ">
+
+        </div><!--./row-->
+    </div>
+</section>
+<!-- *************************end Area******************************************** -->
+
+<!-- ***********************************start ingredient*********************************** -->
+
+<section class=" ingredient" >
+    <div class="container">
+        <div class="row desplay-ingredient py-5 g-4 ">
+        </div><!--./row-->
+    </div>
+</section>
+<!-- *************************end ingredient******************************************** -->
+
+
+<!-- ***********************************start contect*********************************** -->
+
+<section class=" content" >
+    <div class="container">
+        <h1 class="text-white text-center">ContacUs...</h1>
+        <div class="row desplay-ingredient py-5 g-4 ">
+            <div class="col-md-6">
+                <input  id="userName" class="form-control text-center bg-black rounded-0 text-white  " type="text" placeholder="Enter Your Name"/>
+            </div>
+            <div class="col-md-6">
+                <input id="userMail" class="form-control text-center bg-black  rounded-0 text-white "  type="email" placeholder="Enter Your Mail"/>
+            </div>
+
+            <div class="col-md-6">
+                <input  id="userNumber" class="form-control text-center bg-black rounded-0 text-white  " type="number" placeholder="Enter Your Number"/>
+            </div>
+            
+            <div class="col-md-6">
+                <input id="userAge" class="form-control text-center bg-black  rounded-0 text-white "  type="number" placeholder="Enter Your Age"/>
+            </div>
+            <div class="col-md-6">
+                <input id="userPass1" class="form-control text-center bg-black  rounded-0 text-white "  type="password" placeholder="Enter Your Password"/>
+            </div>
+
+            <div class="col-md-6">
+                <input  id="userPass2" class="form-control text-center bg-black rounded-0 text-white  " type="password" placeholder="Enter Your Password"/>
+            </div>
+            <div class="alert alert-danger" role="alert" style="display: none;">
+                check your valid
+            </div>
+            <div class="col-md-12 text-center">
+                <button id="check" class="btn btn-outline-warning " >check</button>
+
+                <button id="submit" class="btn btn-outline-danger " disabled>submit</button>
+            </div>
+
+        </div><!--./row-->
+    </div>
+</section>
+<!-- *************************end contect******************************************** -->
+
+
+
+<script src="js/jquery-3.6.1.min.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/index.js"></script>
+
+    </body>
+</html>
+
+
